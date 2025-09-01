@@ -1,0 +1,4 @@
+2. if I require that the sequence shall repeat RGY for at least three times,  how may Boolean variables shall I use (still two?)? pls state your reasoning.
+
+If the sequence needs to repeat RGY for at least three times you would need three Boolean variables. This is because our first two Boolean variables would still be used to check that our input is a traffic light sequence (like RGY) and our third boolean variable would keep track
+of how many times RGY is repeated for. It would start as false and when it reaches at least three times, then it would switch to true.
